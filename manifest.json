@@ -1,0 +1,41 @@
+{
+  "sap.app": {
+    "id": "supplier.card",
+    "type": "card"
+  },
+  "sap.card": {
+    "type": "Object",
+    "header": {
+      "title": "{/Name}",
+      "subTitle": "Supplier Profile",
+      "icon": {
+        "src": "sap-icon://supplier"
+      }
+    },
+    "content": {
+      "groups": [
+        {
+          "title": "General Information",
+          "items": [
+            {
+              "label": "Name",
+              "value": "{/Name}"
+            },
+            {
+              "label": "Category",
+              "value": "{/Category}"
+            },
+            {
+              "label": "Business Name",
+              "value": "{/BusinessName}"
+            },
+            {
+              "label": "DUNS Number",
+              "value": "{/DUNSNumber}"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
